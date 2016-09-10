@@ -13,7 +13,7 @@ public class ClienteTO {
     private int codigo;
     private String razao;
     private String fantasia;
-    private String Abreviatura;
+    private String abreviatura;
     private String CNPJ;
     private String CPF;
     private String email;
@@ -43,11 +43,11 @@ public class ClienteTO {
     }
 
     public String getAbreviatura() {
-        return Abreviatura;
+        return abreviatura;
     }
 
     public void setAbreviatura(String Abreviatura) {
-        this.Abreviatura = Abreviatura;
+        this.abreviatura = Abreviatura;
     }
 
     public String getCNPJ() {
@@ -79,7 +79,7 @@ public class ClienteTO {
         return "ClienteTO{" + "codigo=" + codigo + ","
                 + " razao=" + razao + ", "
                 + "fantasia=" + fantasia + ", "
-                + "Abreviatura=" + Abreviatura + ", "
+                + "Abreviatura=" + abreviatura + ", "
                 + "CNPJ=" + CNPJ + ", "
                 + "CPF=" + CPF + ", "
                 + "email=" + email + '}';
@@ -92,7 +92,7 @@ public class ClienteTO {
         this.codigo = codigo;
         this.razao = razao;
         this.fantasia = fantasia;
-        this.Abreviatura = Abreviatura;
+        this.abreviatura = Abreviatura;
         this.CNPJ = CNPJ;
         this.CPF = CPF;
         this.email = email;
